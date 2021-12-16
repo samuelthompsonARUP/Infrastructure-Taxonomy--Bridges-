@@ -1,0 +1,481 @@
+{
+    "Title": "Arup Bridge Taxonomy",
+
+    "Bridge Element":[
+        {
+            "Name": "Deck", 
+            "id": "DCK",
+            "Component Group":[
+                {
+                    "Name": "Primary Deck Elements", 
+                    "id": "PDE",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Reinforced Concrete Beam",
+                            "id": "0A"
+                        },
+                        {
+                            "Name": "Post Tensioned Concrete Beam",
+                            "id": "0C"
+                        },
+                        {
+                            "Name": "Pretensioned Concrete Beam",
+                            "id": "0D"
+                        },
+                        {
+                            "Name": "Steel Beam",
+                            "id": "0E"
+                        },
+                        {
+                            "Name": "Wrought Iron Beam",
+                            "id": "0G"
+                        },
+                        {
+                            "Name": "Steel / Concrete Composite Beam",
+                            "id": "0K"
+                        },
+                        {
+                            "Name": "Timber ",
+                            "id": "0O"
+                        },
+                        {
+                            "Name": "Reinforced Concrete Arch",
+                            "id": "1A"
+                        },
+                        {
+                            "Name": "Mass Concrete Arch",
+                            "id": "1B"
+                        },
+                        {
+                            "Name": "Post Tensioned Concrete Arch",
+                            "id": "1C"
+                        },
+                        {
+                            "Name": "Steel Arch",
+                            "id": "1E"
+                        },
+                        {
+                            "Name": "Steel / Concrete Composite Arch",
+                            "id": "1K"
+                        },
+                        {
+                            "Name": "Masonry Arch",
+                            "id": "1M"
+                        },
+                        {
+                            "Name": "Steel Truss",
+                            "id": "2E"
+                        },
+                        {
+                            "Name": "Timber Truss",
+                            "id": "2O"
+                        },
+                        {
+                            "Name": "Steel Cable Stayed Deck",
+                            "id": "3E"
+                        },
+                        {
+                            "Name": "Composited Cable Stayed Deck",
+                            "id": "3N"
+                        },
+                        {
+                            "Name": "Steel Suspension Bridge Deck",
+                            "id": "4E"
+                        },
+                        {
+                            "Name": "Concrete Slab",
+                            "id": "5B"
+                        },
+                        {
+                            "Name": "Post Tensioned Concrete Slab",
+                            "id": "5C"
+                        },
+                        {
+                            "Name": "Steel Deck",
+                            "id": "5E"
+                        },
+                        {
+                            "Name": "Timber Deck",
+                            "id": "5O"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Transverse Beams", 
+                    "id": "TVB",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Reinforced Concrete Beam",
+                            "id": "0E"
+                        },
+                        {
+                            "Name": "Steel Beam",
+                            "id": "0E"
+                        },
+                        {
+                            "Name": "Wrought Iron Beam",
+                            "id": "0G"
+                        },
+                        {
+                            "Name": "Steel / Concrete Composite Beam",
+                            "id": "0K"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Secondary Deck Elements", 
+                    "id": "SDE",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Reinforced Concrete Deck",
+                            "id": "5A"
+                        },
+                        {
+                            "Name": "Concrete Deck",
+                            "id": "5B"
+                        },
+                        {
+                            "Name": "Post Tensioned Concrete Slab",
+                            "id": "5C"
+                        },
+                        {
+                            "Name": "Steel Deck",
+                            "id": "5E"
+                        },
+                        {
+                            "Name": "Masonry Deck",
+                            "id": "5M"
+                        },
+                        {
+                            "Name": "Timber Deck",
+                            "id": "5O"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Other Deck Elements", 
+                    "id": "ODE",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Parapet Supports",
+                            "id": "01"
+                        },
+                        {
+                            "Name": "Half Joints",
+                            "id": "02"
+                        },
+                        {
+                            "Name": "Tie Beam/Rod",
+                            "id": "03"
+                        },
+                        {
+                            "Name": "Deck Bracing",
+                            "id": "04"
+                        },
+                        {
+                            "Name": "Service Bay",
+                            "id": "05"
+                        },
+                        {
+                            "Name": "Spandrel Wall",
+                            "id": "06"
+                        },
+                        {
+                            "Name": "Ducting",
+                            "id": "07"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Cable Systems", 
+                    "id": "CSY",
+                    "Component Sub-Group": [ 
+                        {
+                            "Name": "Vibration Control Systems",
+                            "id": "01"
+                        },
+                        {
+                            "Name": "Anchor Block",
+                            "id": "02"
+                        },
+                        {
+                            "Name": "Cable Components",
+                            "id": "03"
+                        }                    
+                    ]
+                }]
+        },
+        {
+            "Name": "Support",
+            "id": "SUP",
+            "Component Group":[
+                {
+                    "Name": "Load-Bearing Substructure",
+                    "id": "LBS",
+                    "Component Sub-Group":[
+                        {
+                            "Name": "Piers",
+                            "id": "01"
+                        },  
+                        {
+                            "Name": "Towers",
+                            "id": "02"
+                        },
+                        {
+                            "Name": "Abutments",
+                            "id": "03"
+                        },
+                        {
+                            "Name": "Bearings",
+                            "id": "04"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Foundations",
+                    "id": "FOU",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Piles",
+                            "id": "01"
+                        },
+                        {
+                            "Name": "Pad Foundations",
+                            "id": "02"
+                        },
+                        {
+                            "Name": "Cofferdam",
+                            "id": "03"
+                        },
+                        {
+                            "Name": "Caisson",
+                            "id": "04"
+                        }
+                    ]
+                }]
+        },
+        {
+            "Name": "Non-Structural Elements",
+            "id": "NSE",
+            "Component Group":[
+                {
+                    "Name": "Durability Elements",
+                    "id": "DET",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Superstructure Drainage",
+                            "id": "01"
+                        },
+                        {
+                            "Name": "Substructure Drainage",
+                            "id": "02"
+                        },
+                        {
+                            "Name": "Water Proofing",
+                            "id": "03"
+                        },
+                        {
+                            "Name": "Expansion Joint Systems",
+                            "id": "04"
+                        },
+                        {
+                            "Name": "Painting",
+                            "id": "05"
+                        },
+                        {
+                            "Name": "Surface Protection",
+                            "id": "06"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Safety Elements",
+                    "id": "SET",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Vehicle Restraint System",
+                            "id": "01"
+                        },
+                        {
+                            "Name": "Pedestrian Restraint System",
+                            "id": "02"
+                        },
+                        {
+                            "Name": "Footway/Verge/Footbridge Surfacing",
+                            "id": "03"
+                        },
+                        {
+                            "Name": "Carriageway",
+                            "id": "04"
+                        },
+                        {
+                            "Name": "Access/Walkways/Gantries",
+                            "id": "05"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Other Bridge Elements",
+                    "id": "OBE",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Gantries",
+                            "id":"01"
+                        },
+                        {
+                            "Name": "Permanent Formwork",
+                            "id":"02"
+                        },
+                        {
+                            "Name": "Strengthening",
+                            "id":"03"
+                        },
+                        {
+                            "Name": "Anchors",
+                            "id":"04"
+                        },
+                        {
+                            "Name": "Aprons",
+                            "id":"05"
+                        },
+                        {
+                            "Name": "Fenders/Cutwaters/Collision Protection",
+                            "id":"06"
+                        },
+                        {
+                            "Name": "Wing Walls",
+                            "id":"07"
+                        },
+                        {
+                            "Name": "Invert/River Bed",
+                            "id":"08"
+                        },
+                        {
+                            "Name": "River Training Works",
+                            "id":"09"
+                        },
+                        {
+                            "Name": "Revetment/Batter Paving",
+                            "id":"10"
+                        },
+                        {
+                            "Name": "Embankments",
+                            "id":"11"
+                        },
+                        {
+                            "Name": "Approach Slab System",
+                            "id":"12"
+                        },
+                        {
+                            "Name": "Tie Down Group",
+                            "id":"13"
+                        },
+                        {
+                            "Name": "Connectors",
+                            "id":"14"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Ancillary Elements",
+                    "id": "AET",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Approach Rails/Barriers/Walls",
+                            "id": "01"
+                        },
+                        {
+                            "Name": "Signs",
+                            "id": "02"
+                        },
+                        {
+                            "Name": "Services",
+                            "id": "03"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Mechanical and Electrical Systems",
+                    "id": "MES",
+                    "Component Sub-Group": [
+                        {
+                            "Name": "Power Distribution System",
+                            "id": "01"
+                        },
+                        {
+                            "Name": "Cable Distribution System",
+                            "id": "02"
+                        },
+                        {
+                            "Name": "Lightning Protection",
+                            "id": "03"
+                        },
+                        {
+                            "Name": "De-humidification System",
+                            "id": "04"
+                        },
+                        {
+                            "Name": "Ventilation",
+                            "id": "05"
+                        },
+                        {
+                            "Name": "Air Conditioning",
+                            "id": "06"
+                        },
+                        {
+                            "Name": "Cleansing Water",
+                            "id": "07"
+                        },
+                        {
+                            "Name": "Architectural Lighting",
+                            "id": "08"
+                        },
+                        {
+                            "Name": "Internal Access Lighting",
+                            "id": "09"
+                        },
+                        {
+                            "Name": "Aircraft Warning Lighting",
+                            "id": "10"
+                        },
+                        {
+                            "Name": "Marine Navigation Lighting",
+                            "id": "11"
+                        },
+                        {
+                            "Name": "Road Lighting",
+                            "id": "12"
+                        },
+                        {
+                            "Name": "Fire Detection and Alarm System",
+                            "id": "13"
+                        },
+                        {
+                            "Name": "Radio Communication System",
+                            "id": "14"
+                        },
+                        {
+                            "Name": "Security System",
+                            "id": "15"
+                        },
+                        {
+                            "Name": "SCADA",
+                            "id": "16"
+                        },
+                        {
+                            "Name": "Strutural Health Monitoring",
+                            "id": "17"
+                        },
+                        {
+                            "Name": "Motorised Gantries",
+                            "id": "18"
+                        },
+                        {
+                            "Name": "Tower Lift",
+                            "id": "19"
+                        }
+                    ]
+                }
+            ]
+        }
+]}
